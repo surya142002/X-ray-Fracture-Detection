@@ -49,6 +49,9 @@ Here are some **example visualizations**:
 | ![X-ray 1](images/1.png) | ![Heatmap 1](images/2.png) |
 | ![X-ray 2](images/3.png) | ![Heatmap 2](images/4.png) |
 
+Clearly the model is not looking for fractures but rather trying to understand the different bone formations
+to classify at this moment.
+
 ## 📈 **Final Results**
 
 - **Best Test Accuracy:** **55.0%** (ResNet50 Fine-Tuned)
@@ -57,7 +60,7 @@ Here are some **example visualizations**:
 
 ## 🚀 **Future Work**
 
-- ✅ **Test EfficientNet** (More medical image-friendly model).
-- ✅ **Explore Object Detection (YOLOv8/Faster R-CNN)** for localizing fractures. (Although, I can't really tell fractures)
-- ✅ **Increase Dataset Size** to improve generalization.
-- ✅ **Test Self-Supervised Learning (SimCLR, BYOL).**
+- **Test EfficientNet** (More medical image-friendly model).
+- **Explore Object Detection (YOLOv8/Faster R-CNN)** for localizing fractures. (Although, I can't really tell fractures)
+- **Increase Dataset Size** to improve generalization.
+- **Test Self-Supervised Learning (SimCLR, BYOL).**
