@@ -46,8 +46,8 @@ Here are some **example visualizations**:
 
 | **Original X-ray**   | **Grad-CAM Heatmap**   |
 | -------------------- | ---------------------- |
-| ![X-ray 1](images/1) | ![Heatmap 1](images/2) |
-| ![X-ray 2](images/3) | ![Heatmap 2](images/4) |
+| ![X-ray 1](images/1.png) | ![Heatmap 1](images/2.png) |
+| ![X-ray 2](images/3.png) | ![Heatmap 2](images/4.png) |
 
 ## 📈 **Final Results**
 
