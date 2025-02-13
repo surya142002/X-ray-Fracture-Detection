@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 
 This project aims to classify X-ray images into **7 different fracture types** using **deep learning**.  
-We fine-tuned **ResNet50** on an X-ray fracture dataset, experimenting with **data augmentations, Mixup training, fine-tuning strategies, and learning rate schedules** to improve classification accuracy.
+I fine-tuned **ResNet50** on an X-ray fracture dataset, experimenting with **data augmentations, Mixup training, fine-tuning strategies, and learning rate schedules** to improve classification accuracy.
 
 ## 🏥 **Dataset**
 
@@ -19,7 +19,7 @@ We fine-tuned **ResNet50** on an X-ray fracture dataset, experimenting with **da
 
 ## 🏗️ **Model Architecture & Training**
 
-We experimented with **multiple training strategies**, ultimately selecting **ResNet50** as the best-performing model.
+I experimented with **multiple training strategies**, ultimately selecting **ResNet50** as the best-performing model.
 
 ### ✅ **Final Model: ResNet50 Fine-Tuned**
 
@@ -41,13 +41,13 @@ We experimented with **multiple training strategies**, ultimately selecting **Re
 
 ## 🔥 **Grad-CAM Visualizations**
 
-To understand what the model **focuses on** when classifying fractures, we used **Grad-CAM** to generate heatmaps.  
+To understand what the model **focuses on** when classifying fractures, I used **Grad-CAM** to generate heatmaps.  
 Here are some **example visualizations**:
 
-| **Original X-ray**     | **Grad-CAM Heatmap**     |
-| ---------------------- | ------------------------ |
-| ![X-ray 1](./images/1) | ![Heatmap 1](./images/2) |
-| ![X-ray 2](./images/3) | ![Heatmap 2](./images/4) |
+| **Original X-ray**   | **Grad-CAM Heatmap**   |
+| -------------------- | ---------------------- |
+| ![X-ray 1](images/1) | ![Heatmap 1](images/2) |
+| ![X-ray 2](images/3) | ![Heatmap 2](images/4) |
 
 ## 📈 **Final Results**
 
